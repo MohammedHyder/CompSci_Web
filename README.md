@@ -1,7 +1,43 @@
 # CompSci_Web
+Team Skills: 
+    Mohammed
+        - Javascript
+        - HTML
+        - CSS
+        - VS Code 
+        - Git and Github 
+    Nabil 
+        - Javascript 
+        - 
 
-Landing page: 
+    Ben 
+        - Javascript 
+        -
+         
+    Maria 
+        - 
+    
+    Natalie 
+        -
+
+    Kim A
+        - 
+
+
+Landing page ideas: 
 
 
 
-Resources page: 
+Resources page ideas: 
+
+
+
+
+
+Landing page to-do: 
+    -Nav Bar
+    -Weekly site updates
+    -Newest blog post
+    -Etc.  
+
+Resources page to-do: 
