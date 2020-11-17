@@ -1,5 +1,6 @@
 # CompSci_Web
 Team Skills: 
+
     Mohammed
         - Javascript
         - HTML
@@ -9,8 +10,8 @@ Team Skills:
     Nabil 
         - Javascript 
         - 
-
-    Ben 
+    
+    Ben
         - Javascript 
         -
          
