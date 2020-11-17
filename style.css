@@ -1,5 +1,5 @@
 /* body {
-    background-color: aqua;
+    background-color: #75B8C8;
 }
 
 .header {
@@ -18,7 +18,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: aquamarine;
+  background-color: #75B8C8;
   padding: 30px;
   text-align: center;
   font-size: 20px;
@@ -30,7 +30,7 @@ nav {
   float: left;
   width: 30%;
   height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
+  background: #CDD3D5;
   padding: 20px;
 }
 
@@ -44,7 +44,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
+  background-color: #F1F1F9;
   height: 300px; /* only for demonstration, should be removed */
 }
 
