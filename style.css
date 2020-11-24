@@ -1,5 +1,9 @@
 /* body {
-    background-color: #75B8C8;
+    background-color: aqua;
+}
+
+.title {
+  background-color: grey; 
 }
 
 .header {
@@ -7,18 +11,25 @@
     height: 100px;
     float: middle; 
 } */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro"); 
+@import url("https://fonts.googleapis.com/css?family=Roboto+Serif"); 
 
 * {
   box-sizing: border-box;
 }
 
+h2 {
+  font-family: Source Sans Pro; 
+}
+
 body {
-  font-family: Source Sans Pro, Helvetica, sans-serif;
+  font-family: Helvetica; 
 }
 
 /* Style the header */
 header {
-  background-color: #75B8C8;
+  font-family: Roboto Serif; 
+  background-color: aquamarine;
   padding: 30px;
   text-align: center;
   font-size: 20px;
@@ -26,12 +37,13 @@ header {
 }
 
 /* Create two columns/boxes that floats next to each other */
-nav {
+.main-nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #CDD3D5;
+  height: 100%; 
+  background: #ccc;
   padding: 20px;
+  font-family: Roboto; 
 }
 
 /* Style the list inside the menu */
@@ -40,12 +52,26 @@ nav ul {
   padding: 0;
 }
 
+.main-nav li.active a {
+	border: 1px solid white;
+}
+
+.main-nav li a:hover {
+	border: 1px solid white;
+}
+
 article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #F1F1F9;
-  height: 300px; /* only for demonstration, should be removed */
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
 }
 
 /* Clear floats after the columns */
